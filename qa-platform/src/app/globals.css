@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 40 30% 95%; /* Beige */
+    --foreground: 0 0% 10%; /* Dark Brown/Black */
+    --card: 40 30% 95%; /* Beige */
+    --card-foreground: 0 0% 10%; /* Dark Brown/Black */
+    --popover: 40 30% 95%; /* Beige */
+    --popover-foreground: 0 0% 10%; /* Dark Brown/Black */
+    --primary: 40 90% 50%; /* Gold */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 35 50% 40%; /* Brown */
+    --secondary-foreground: 0 0% 100%; /* White */
+    --muted: 0 0% 85%; /* Light Gray */
+    --muted-foreground: 0 0% 30%; /* Dark Gray */
+    --accent: 40 80% 60%; /* Rich Gold */
+    --accent-foreground: 0 0% 10%; /* Dark Brown */
+    --destructive: 0 84.2% 50%; /* Deep Red */
+    --destructive-foreground: 0 0% 100%; /* White */
+    --border: 35 40% 50%; /* Medium Brown */
+    --input: 35 40% 50%; /* Medium Brown */
+    --ring: 40 90% 50%; /* Gold */
+    --chart-1: 40 80% 55%; /* Gold Variation */
+    --chart-2: 35 60% 45%; /* Brown Variation */
+    --chart-3: 0 0% 20%; /* Dark Gray */
+    --chart-4: 0 0% 95%; /* White Variation */
+    --chart-5: 40 70% 50%; /* Another Gold Variation */
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 10%; /* Dark Brown/Black */
+    --foreground: 40 90% 50%; /* Gold */
+    --card: 0 0% 10%; /* Dark Brown/Black */
+    --card-foreground: 40 90% 50%; /* Gold */
+    --popover: 0 0% 10%; /* Dark Brown/Black */
+    --popover-foreground: 40 90% 50%; /* Gold */
+    --primary: 40 80% 60%; /* Rich Gold */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 35 50% 40%; /* Brown */
+    --secondary-foreground: 0 0% 100%; /* White */
+    --muted: 0 0% 30%; /* Dark Gray */
+    --muted-foreground: 0 0% 85%; /* Light Gray */
+    --accent: 40 70% 50%; /* Gold */
+    --accent-foreground: 0 0% 100%; /* White */
+    --destructive: 0 84.2% 50%; /* Deep Red */
+    --destructive-foreground: 0 0% 100%; /* White */
+    --border: 35 40% 50%; /* Medium Brown */
+    --input: 35 40% 50%; /* Medium Brown */
+    --ring: 40 90% 50%; /* Gold */
+    --chart-1: 40 80% 55%; /* Gold Variation */
+    --chart-2: 35 60% 45%; /* Brown Variation */
+    --chart-3: 0 0% 20%; /* Dark Gray */
+    --chart-4: 0 0% 95%; /* White Variation */
+    --chart-5: 40 70% 50%; /* Another Gold Variation */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
