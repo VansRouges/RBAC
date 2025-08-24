@@ -103,6 +103,11 @@ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 NEON_DATABASE_URL=
 ```
+Reference Link: https://clerk.com/blog/nextjs-role-based-access-control#configuring-rbac-with-clerk
+
+Reference Image: 
+<img width="1035" height="868" alt="image" src="https://github.com/user-attachments/assets/7f4161d1-747e-46d5-a79e-eb63c3c8e69e" />
+
 
 ## 🤝 Contributing
 
